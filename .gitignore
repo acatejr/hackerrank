@@ -1,0 +1,5 @@
+*.pyc
+*.log
+scratch.*
+*.tmp
+tmp/
