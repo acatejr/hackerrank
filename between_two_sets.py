@@ -1,4 +1,8 @@
-
+"""_summary_
+https://courses.lumenlearning.com/mathforliberalartscorequisite/chapter/finding-all-the-factors-of-a-number/
+"""
+    
+    
 def getFactors(v):
     
     results = [1, v]
