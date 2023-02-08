@@ -18,20 +18,22 @@ def getFactors(v):
 
 def getTotalX(a, b):
 
-    factors = {}
     _factors = []
     for i in b:
         for v in getFactors(i):
             _factors.append(v)
+    
+    _factors = {i: _factors.count(i) for i in _factors}
+    _factors = [i for i in _factors if _factors[i] == len(b)]
+    print(_factors)
+    
+    total = 0        
+    return total
 
-    fact_dict = {i: _factors.count(i) for i in _factors}
-    print(fact_dict)
-    # print(_factors)
+a = [1, 2]
+b = [24, 36]
 
-a = [1,2]
-b = [24,36]
-
-# a = [2,4]
-# b = [16, 32,96]
+# a = [2, 4]
+# b = [16, 32, 96]
 print(getTotalX(a,b))
 
