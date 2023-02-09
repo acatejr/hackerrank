@@ -3,3 +3,5 @@
 scratch.*
 *.tmp
 tmp/
+venv/
+.pytest_cache/
