@@ -1,4 +1,8 @@
 def jumping_on_clouds(c, k):
+    """Another way to do this.
+    Get indices of all clouds where land, get corresponding values.
+    Process energy based on those values.  The one more energy process for value at c[0]
+    """
 
     energy = 100
     n = len(c)
